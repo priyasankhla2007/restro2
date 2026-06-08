@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Savory Bistro | Fine Dining</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/style.css">    
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header>
+        <div class="container navbar">
+            <a href="#" class="logo">SAVORY<span>BISTRO</span></a>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#menu" class="nav-link">Menu</a></li>
+                <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero">
+        <div class="container hero-content">
+            <h1>Experience Exquisite Dining</h1>
+            <p>Crafting unforgettable culinary moments with locally sourced organic ingredients, world-class chefs, and an ambiance designed for comfort.</p>
+            <div class="hero-btns">
+                <a href="#menu" class="btn">View Menu</a>
+                <button class="btn btn-outline open-reserve-btn">Book A Table</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <div class="container about-wrapper">
+            <div class="about-text">
+                <h2 class="section-title" style="text-align: left; margin-bottom: 20px; justify-content: start;">Our Story</h2>
+                <p>Founded with a passion for exceptional flavors, The Savory Bistro brings together traditional culinary arts and modern innovations. Every dish is a curated journey built to delight your senses.</p>
+                <p>We pride ourselves on working strictly with local farmers and sustainable fisheries to guarantee that freshness is delivered to your plate every single day.</p>
+                <div class="about-features">
+                    <div class="feature-item"><i class="fas fa-check-circle"></i> Fresh Ingredients</div>
+                    <div class="feature-item"><i class="fas fa-check-circle"></i> Master Chefs</div>
+                    <div class="feature-item"><i class="fas fa-check-circle"></i> Cozy Ambiance</div>
+                    <div class="feature-item"><i class="fas fa-check-circle"></i> 5-Star Service</div>
+                </div>
+            </div>
+            <div class="about-img">
+                <img src="img/aboutimg/about.avif" alt="Chef preparing food">
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU SECTION -->
+    <section id="menu">
+        <div class="container">
+            <h2 class="section-title">Our Signature Menu</h2>
+            
+            <div class="menu-tabs">
+                <button class="tab-btn active" data-filter="all">All</button>
+                <button class="tab-btn" data-filter="starters">Starters</button>
+                <button class="tab-btn" data-filter="mains">Mains</button>
+                <button class="tab-btn" data-filter="desserts">Desserts</button>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Item 1 -->
+                <div class="menu-item" data-category="starters">
+                    <div class="menu-img">
+                        <img src="img/menueitems/menue1.avif" alt="Bruschetta">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-price">
+                            <h3>Tomato Bruschetta</h3>
+                            <span class="menu-price">$12</span>
+                        </div>
+                        <p>Grilled artisan bread rubbed with garlic, topped with diced tomatoes, fresh basil, and balsamic glaze.</p>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="menu-item" data-category="mains">
+                    <div class="menu-img">
+                        <img src="img/menueitems/menue2.avif" alt="Ribeye Steak">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-price">
+                            <h3>Prime Ribeye Steak</h3>
+                            <span class="menu-price">$38</span>
+                        </div>
+                        <p>14oz grass-fed ribeye grilled over cherry wood, served with garlic mashed potatoes and asparagus.</p>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="menu-item" data-category="mains">
+                    <div class="menu-img">
+                        <img src="img/menueitems/menue3.avif" alt="Salmon">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-title-price">
+                            <h3>Pan-Seared Salmon</h3>
+                            <span class="menu-price">$29</span>
+                        </div>
+                        <p>Crispy skin salmon filet over a bed of wild quinoa, sautéed spinach, and a citrus butter reduction.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section id="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Guests Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"The ribeye steak was absolutely incredible—cooked to absolute perfection. The atmosphere makes it the perfect spot for date nights!"</p>
+                    <div class="client-info">
+                        <img src="img/testinomals/test1.avif" alt="Sarah J.">
+                        <div>
+                            <h4>Sarah Jenkins</h4>
+                            <small>Verified Guest</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Impeccable service. Our server was knowledgeable and recommended an amazing wine pairing for the salmon. Highly recommend!"</p>
+                    <div class="client-info">
+                        <img src="img/testinomals/test2.jpg" alt="Marcus T.">
+                        <div>
+                            <h4>Marcus Vance</h4>
+                            <small>Verified Guest</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT & INTEGRATED BOOKING SECTION -->
+    <section id="contact">
+        <div class="container contact-wrapper">
+            <div class="contact-info">
+                <h3>Visit Us</h3>
+                <p style="margin-bottom: 20px; color: #aaa;">Stop by or drop us a line. We recommend securing your table ahead of time, especially over weekends.</p>
+                <div class="contact-details">
+                    <div class="contact-detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>123 Culinary Ave, Foodie District, NY 10001</span>
+                    </div>
+                    <div class="contact-detail-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+1 (555) 234-5678</span>
+                    </div>
+                    <div class="contact-detail-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>reservations@savorybistro.com</span>
+                    </div>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="booking-form">
+                <h3 style="color: var(--primary); margin-bottom: 20px;">Book a Table</h3>
+                <form id="main-reservation-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Phone Number" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="date" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="time" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="" disabled selected>Number of Guests</option>
+                            <option value="1">1 Person</option>
+                            <option value="2">2 People</option>
+                            <option value="3">3 People</option>
+                            <option value="4">4 People</option>
+                            <option value="5+">5+ People</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%;">Submit Reservation</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026  All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- POPUP RESERVATION MODAL -->
+    <div class="modal" id="reservation-modal">
+        <div class="modal-content">
+            <i class="fas fa-times close-modal"></i>
+            <h3 style="margin-bottom: 20px; font-size: 1.5rem; text-align: center;">Secure Your Table</h3>
+            <div class="booking-form">
+                <form id="modal-reservation-form">
+                    <div class="form-group"><input type="text" placeholder="Your Name" required></div>
+                    <div class="form-group"><input type="email" placeholder="Email Address" required></div>
+                    <div class="form-row">
+                        <div class="form-group"><input type="date" required></div>
+                        <div class="form-group"><input type="time" required></div>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="" disabled selected>Number of Guests</option>
+                            <option value="1">1 Person</option>
+                            <option value="2">2 People</option>
+                            <option value="3">3 People</option>
+                            <option value="4">4 People</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%;">Confirm Booking</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/script.js"></script>
+  </body>
+</html>
